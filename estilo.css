@@ -956,3 +956,125 @@ iframe {
         width: 70px;
     }
 }
+
+/* =========================
+   RESPONSIVE FINAL CELULAR
+   ========================= */
+@media (max-width: 768px) {
+
+    body {
+        overflow-x: hidden;
+    }
+
+    /* ================= HEADER ================= */
+    .top-bar {
+        flex-direction: column;
+        height: auto;
+        padding: 10px;
+        text-align: center;
+    }
+
+    .logo {
+        height: 80px !important;
+    }
+
+    .ciencia {
+        display: flex;
+        flex-direction: column;
+        gap: 8px;
+        margin-top: 10px;
+    }
+
+    .ciencia a {
+        font-size: 14px;
+    }
+
+    /* ================= HERO ================= */
+    .hero-texto h1 {
+        font-size: 24px;
+    }
+
+    .hero-texto p {
+        font-size: 14px;
+    }
+
+    .imagen-header {
+        height: 200px;
+    }
+
+    /* ================= CARRUSEL ================= */
+    .sabiduria {
+        height: 180px;
+    }
+
+    /* ================= NOTICIAS RANDOM ================= */
+    .contenedor-noticias,
+    #noticias-random {
+        grid-template-columns: 1fr !important;
+        width: 95%;
+    }
+
+    .noticia {
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+    }
+
+    .texto {
+        width: 100%;
+    }
+
+    .img-noticia {
+        width: 100%;
+        height: auto;
+        margin-top: 10px;
+    }
+
+    /* ================= MAPA ================= */
+    iframe {
+        width: 100%;
+        height: 220px;
+    }
+
+    /* ================= EQUIPO PASTORAL ================= */
+    .temordedios {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .card-comunidad {
+        width: 95%;
+    }
+
+    /* ================= CAPILLAS ================= */
+    .inteligencia {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .card {
+        width: 90%;
+    }
+
+    /* ================= FOOTER ================= */
+    .footer-top {
+        grid-template-columns: 1fr;
+        text-align: center;
+    }
+
+    .footer-bottom {
+        flex-direction: column;
+        text-align: center;
+        gap: 10px;
+    }
+
+    /* ================= TABLAS ================= */
+    table {
+        width: 100%;
+        font-size: 13px;
+    }
+
+    th, td {
+        padding: 8px;
+    }
+}
